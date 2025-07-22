@@ -72,4 +72,3 @@ This project includes a GitHub Actions workflow for automatic deployment to GitH
 - `/utils`: Utility functions and configuration
 - `/.devcontainer`: Dev Container configuration
 - `/.github/workflows`: GitHub Actions workflow for deployment
-# Deployment test
