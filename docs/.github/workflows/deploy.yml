@@ -33,7 +33,6 @@ jobs:
       - name: Export
         run: |
           cd docs
-          npm run export
           touch out/.nojekyll
 
       - name: Deploy
