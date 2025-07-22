@@ -10,6 +10,8 @@ services:
     command: sleep infinity
     environment:
       - NODE_ENV=development
+    env_file:
+      - ../.env.local
     ports:
       - "3000:3000"
     # Overrides default command so things don't shut down after the process ends
